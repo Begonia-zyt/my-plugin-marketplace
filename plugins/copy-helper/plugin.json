@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "copy-helper",
+  "version": "0.1.0",
+  "description": "帮助用户改写、精简和调整文案语气，保留事实与核心意思。",
+  "author": {
+    "name": "本地开发者"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "文案改写助手",
+        "shortDescription": "改写、精简文案，调整语气与平台风格",
+        "longDescription": "根据用户提供的原文、目标平台、语气和长度改写文案，保留事实，不编造数字、案例或引用。",
+        "developerName": "本地开发者",
+        "category": "Productivity",
+        "defaultPrompt": "请用文案改写助手，把我提供的文案改得更自然、更简洁。"
+      }
+    }
+  }
+}
